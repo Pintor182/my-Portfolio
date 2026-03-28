@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christian Pintor | Portfolio</title>
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 15px;
+            transition: transform 0.3s;
+        }
+
+        .hero img:hover {
+            transform: scale(1.08);
+        }
+
+        .section {
+            padding: 70px 20px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Christian Pintor</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tech">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certs">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="hero">
+    <img src="C:\Users\Christian Pintor\Downloads\download (1)" alt="Profile Picture">
+
+    <h1 class="fw-bold">Christian Pintor</h1>
+    <h4>Aspiring Web Developer</h4>
+    <p class="lead">Building clean, efficient, and user-friendly web applications.</p>
+</section>
+
+
+<section id="about" class="section container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center w-75 mx-auto">
+        I am an IT student passionate about web development and system design.
+        I focus on creating responsive, user-friendly applications and continuously
+        improving my skills in modern technologies. My goal is to become a
+        professional developer and contribute to innovative digital solutions.
+    </p>
+</section>
+
+
+
+        
+<section id="tech" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Tech Stack</h2>
+
+        <div class="row text-center g-4">
+
+           
+            <div class="col-md-3">
+                <img src="C:\Users\Christian Pintor\Downloads\OIP.jpg" class="img-fluid mb-3" style="height:100px;">
+                <h6 class="fw-bold">HTML / CSS</h6>
+            </div>
+
+           
+            <div class="col-md-3">
+                <img src="C:\Users\Christian Pintor\Downloads\OIP (1).jpg" class="img-fluid mb-3" style="height:100px;">
+                <h6 class="fw-bold">Bootstrap</h6>
+            </div>
+
+           
+            <div class="col-md-3">
+                <img src="C:\Users\Christian Pintor\Downloads\OIP (2).jpg" class="img-fluid mb-3" style="height:100px;">
+                <h6 class="fw-bold">JavaScript</h6>
+            </div>
+
+            
+            <div class="col-md-3">
+                <img src="C:\Users\Christian Pintor\Downloads\1000_F_592234470_SzeCXtQ7oKaMRWHh6NO82wNZV2IO1Fvt.jpg" class="img-fluid mb-3" style="height:100px;">
+                <h6 class="fw-bold">Python / Java / C#</h6>
+            </div>
+
+        </div>
+    </div>
+
+<section id="projects" class="section container">
+    <h2 class="text-center mb-4">Projects</h2>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5>Paint Shop Management System</h5>
+                <p>Web-based platform for managing paint shop operations and inventory.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5>Calculator App</h5>
+                <p>Simple calculator application with basic arithmetic operations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications -->
+<section id="certs" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Certifications & Trainings</h2>
+        <ul class="text-center list-unstyled">
+            <li>SAP Certificate</li>
+          
+            
+        </ul>
+    </div>
+</section>
+
+<!-- Affiliations -->
+<section class="section container">
+    <h2 class="text-center mb-4">Affiliations</h2>
+    <ul class="text-center list-unstyled">
+        <li>IT Student Organization</li>
+        <li>Programming Club</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+
+        <form id="contactForm" class="w-50 mx-auto">
+            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+            <textarea class="form-control mb-3" placeholder="Your Message" required></textarea>
+            <button class="btn btn-primary w-100">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        alert("Message sent successfully!");
+    });
+</script>
+
+</body>
+</html>
